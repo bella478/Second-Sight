@@ -1,0 +1,13 @@
+{
+  "type": "secondsight:void_type",
+  "generator": {
+    "biome_source": {
+      "seed" : 0,
+      "type": "minecraft:fixed",
+      "biome": "secondsight:void_remnants"
+    },
+    "seed": 0,
+    "settings": "minecraft:overworld",
+    "type": "minecraft:noise"
+  }
+}

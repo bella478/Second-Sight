@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "secondsight",
+  "version": "${version}",
+
+  "name": "Second Sight",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Bella"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "GNU GPLv3",
+  "icon": "assets/secondsight/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bella.secondsight.SecondSight"
+    ]
+  },
+  "mixins": [
+    ""
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
