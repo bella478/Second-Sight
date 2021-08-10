@@ -8,10 +8,10 @@ import net.minecraft.sound.BlockSoundGroup;
 
 public class BlockDefinitions {
     public static final Block VOID_GRASS = new Block(
-            FabricBlockSettings.of(Material.SOIL)
-                    .strength(0.6f)
-                    .resistance(0.6f)
-                    .luminance(0).sounds(BlockSoundGroup.GRASS)
-                    .breakByTool(FabricToolTags.SHOVELS)
+        FabricBlockSettings.of(Material.SOIL)
+        .strength(0.6f)
+        .resistance(0.6f)
+        .luminance(0).sounds(BlockSoundGroup.GRASS)
+        .breakByTool(FabricToolTags.SHOVELS)
     );
 }

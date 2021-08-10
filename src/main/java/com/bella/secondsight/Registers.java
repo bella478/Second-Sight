@@ -13,19 +13,20 @@ public class Registers {
 
     public static void registerBlocks() {
         Registry.register
-                (Registry.BLOCK,
-                        new Identifier("secondsight", "void_grass"),
-                        BlockDefinitions.VOID_GRASS
-                );
+            (
+                Registry.BLOCK,
+                new Identifier("secondsight", "void_grass"),
+                BlockDefinitions.VOID_GRASS
+            );
     }
 
     public static void registerItems() {
         Registry.register
-                (
-                        Registry.ITEM,
-                        new Identifier("secondsight", "void_grass"),
-                        new BlockItem(BlockDefinitions.VOID_GRASS, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS))
-                );
+            (
+                Registry.ITEM,
+                new Identifier("secondsight", "void_grass"),
+                new BlockItem(BlockDefinitions.VOID_GRASS, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS))
+            );
     }
 
     public static void registerPortals() {
